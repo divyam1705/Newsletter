@@ -32,10 +32,10 @@ app.post("/",function(req,res)
   }]
 };
   var jsondata=JSON.stringify(data);
-  var url="https://us21.api.mailchimp.com/3.0/lists/8d38c2a717";
+  var url="https://us21.api.mailchimp.com/3.0/lists/";
   var options={
     method:"POST",
-    auth:"divyam_arora:95ce780d6edc614ae204e4c829e8d11a-us21"
+    auth:"divyam_arora:"
   }
   const request=https.request(url,options,function(response){
       response.on("data",function(data){

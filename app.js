@@ -5,8 +5,8 @@ const https=require("https");
 
 
 var app=express();
-var apikey="95ce780d6edc614ae204e4c829e8d11a-us21";
-var list_id="8d38c2a717";
+var apikey="";
+var list_id="";
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
